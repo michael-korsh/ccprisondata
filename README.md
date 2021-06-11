@@ -57,5 +57,5 @@ Executes the functions. Divided into 2 sub-sections:
 * **Mondays:** Allows user to enter in weekend dates, and will update the jail population spreadsheet with data from the weekend.
 * **Daily Operations:** Run every day.
 
-# Created by Michael Korsh for [Injustice Watch,](https://www.injusticewatch.org) Spring 2021.
+Created by Michael Korsh for [Injustice Watch,](https://www.injusticewatch.org) Spring 2021.
 
