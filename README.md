@@ -2,7 +2,7 @@
 
 This Python script retrieves the data points relevant to [Injustice Watch’s Cook County Jail COVID-19 tracker](https://datastudio.google.com/u/3/reporting/1AI4THiXJ_6Nt-9NXwE0MfO_DUaa1Koxi/page/hcyJB) each day, and updates the Google Sheet containing the data.
 
-Each part of the scraper (PrisonDataScraper.ipynb) is sectioned off into segments for each task. Below is an explanation of each task the scraper executes:
+Each part of the scraper (ccprisondata.ipynb) is sectioned off into segments for each task. Below is an explanation of each task the scraper executes:
 
 ## Installing and Importing Relevant Libraries
 Installs libraries (Java, tabula, pygsheets) and imports packages needed for future steps. Also authenticates user information to allow edit access to Injustice Watch's internal spreadsheet.
@@ -55,7 +55,7 @@ Like "Initialize Today's Data," daily_operations runs both of the update spreads
 ## RUNNING THE PROGRAM
 Executes the functions. Divided into 2 sub-sections:
 * **Mondays:** Allows user to enter in weekend dates, and will update the jail population spreadsheet with data from the weekend.
-* **Daily Operations:** Run every day.
+* **All Days:** Run every day.
 
 Created by Michael Korsh for [Injustice Watch,](https://www.injusticewatch.org) Spring 2021.
 
